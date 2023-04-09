@@ -1,54 +1,311 @@
-button {
-    background-color: rgb(0, 217, 255);
-    border-radius:  3px;
-    color: #FFFFFF;
-    padding: 5px;
-    margin-top: 10px;
-
-}
-
 button:active {
     transform: scale(0.95);
+}
+
+.contenedor {
+    height: auto;
+    width: auto;
+    /* background-color: rgb(237, 242, 239); */
+    padding: 5px;
+}
+
+.grid-layout {
+    display: grid;
+   /*  grid-template-columns: 150px auto 150px; */
+    grid-template-columns: 150px auto 150px;
+
+    margin: 0 auto;
+    margin-top: 30px;
+    
+    height: auto;
+    width: 95%;
+    padding: 10px;
+
+    justify-content: center;
+}
+
+body{
+    background-color: rgb(205, 210, 210);
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+
+
+
+.partsuperior {   /*weather*/
+    display: flex;
+
+    height: auto;
+    width: auto;
+    /* background-color: blueviolet; */
+    padding: 10px;
+    flex-direction: row;
+}
+
+#temps {
+ /* 
+border: 1px solid black;
+    background-color: grey; */
+   width: 90px;
+   height: 90px;
+   text-align: center;
+
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
+#temps1 {
+    display:flex;
+/*   */
+    
+    width: 100px;
+    height: 90px;
+font-size: 22px;
+     align-items: center;
+   justify-content: center; 
+
 
 }
 
 
-#titol {
-    font-size: 25px;
+/*-----------------------------------------------------------------------------------------------*/
+
+
+#titol1 {
+    font-size: 20px;
     align-content: center;
+    margin-bottom: 40px;
+    color: white;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+}
+
+.acudits {
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    color: white;
+
+}
+
+
+
+
+.box1 {
+    /* border: 1px dotted black; */
+    width: 100px;
+    height: 100px;
+    margin-top: 400px;
+    text-align: center;
+
+}
+
+#requadre1 {
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+}
+
+#recipient {
+    /* border: 1px solid red;   */      
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:570px;
+    height:570px;    
+    /*align-content: space-around;*/
+}
+
+
+.recipient {  
+   /*  border: 1px dotted black;  */  
+    margin:5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-rows: 300px auto auto; 
+}
+
+
+.box3 {
+   /*  border: 1px dotted black; */
+    width: 120px;
+    height: 120px;
+    margin-top: 30px;   
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover  ;
+}
+
+#requadre2 {
+
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 120px;
+
+}
+
+
+
+.titol {
+   /*  border: 1px dotted black; */
+margin-top:100px;
+margin-left:220px;
+margin-right:220px;
+min-width: 350px;
+font-size: smaller;
+}
+
+#botonsPuntuacio{
+    /* border: 1px dotted black; */
+    margin-left:220px;
+margin-right:220px;
+}
+
+.seguentAcudit {
+    /* border: 1px dotted black; */
+    margin-left:220px;
+    margin-right:220px;
+    margin-bottom: 50px;
+    margin-top: 3px;
+}
+
+#btn {
+    font-size: 35px;
+    background-color: transparent;
+    border: none;
+    /*border: 2px dotted white;*/
+}
+
+.botoAcudit {
+    background-color: rgba(255, 208, 0, 0.973);
+    border-radius: 20px;
+    color: black;
+    padding: 5px 50px;
+    box-shadow: white 0 0 30px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+
+
+
+
+/*------------------------------- FI CODI -----------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  body {
+    border: 3px dotted red;
+}  */
+
+
+/*
+
+
+.titol {
+    border: 2px solid black;
+    margin: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 #botonsPuntuacio {
-    display:none;
-
-}
-
-/* ----------- ABANS DE MAQUETAR -------------------*/
-
-
-body {
-    background-image: url(/CSS/images/riure1.jpg);
-    background-size: cover;
-}
-
-
-.recipient {
-    margin: 10%;
-    margin-left: 25%;
-    margin-right: 25%;        
-    background-color: #FFFFFF;
-    padding: 5%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    border-radius: 10px;
-    box-shadow: 0 0  30px 5px;
+    /*border: 2px solid white;*/
+    /*display: none;*/
+/* 
+    visibility: hidden;
+    margin-left: 100px;
+    margin-right: 100px;
     text-align: center;
-    opacity: 0.8;
+    /*color: #FFFFFF;*//*
 }
- 
+
+#btn {
+    font-size: 35px;
+    background-color: transparent;
+    border: none;
+    border: 2px dotted white;
+}
 
 
-/* AMB MAQUETACIÓ*/
+.seguentAcudit {
+    /*border: 2px solid white;*/ /*
+    margin-left: 210px;
+    margin-right: 210px;
+    margin-top: 20px;
+
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.botoAcudit {
+    background-color: rgba(255, 208, 0, 0.973);
+    border-radius: 20px;
+    color: black;
+    padding: 5px 50px;
+    box-shadow: white 0 0 30px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+ */
+
 /*
 body {
 
@@ -73,3 +330,34 @@ body {
     padding-bottom: 20%; 
 }
 */
+
+
+
+
+
+
+
+
+
+/* ----------- ABANS DE MAQUETAR -------------------*/
+
+
+/* body {
+    background-image: url(/CSS/images/riure1.jpg);
+    background-size: cover;
+}
+
+
+.recipient {
+    margin: 10%;
+    margin-left: 25%;
+    margin-right: 25%;        
+    background-color: #FFFFFF;
+    padding: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 10px;
+    box-shadow: 0 0  30px 5px;
+    text-align: center;
+    opacity: 0.8;
+} */

@@ -5,40 +5,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/css/style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" media="screen" />
     <title>Sprint 5</title>
 </head>
 
 <body>
 
-    <div class="weather">
+   
 
-<p class="temps"></p>
+    <div class="contenedor">
 
+        <div class="partsuperior">
 
-
-    </div>
-    <div class="recipient">
-        <div>
-
-            <p id="titol"><b>Preparat per riure? </b></p>
-            <p class="acudits"></p>
-         <!--   <p id="z">Saben aquell que diu</p> -->
-
+            <div id="temps"></div>
+            <div id="temps1"></div>
 
         </div>
 
-<div id="botonsPuntuacio">
+        <div class="grid-layout">
 
-    <button id="btn" onclick="puntuacio(1)">1</button>
-    <button id="btn" onclick="puntuacio(2)">2</button>
-    <button id="btn" onclick="puntuacio(3)">3</button>
+          
 
-</div>
-            <button class="botoAcudit">Següent acudit</button>
+            <div class="box1">
+                <div id="requadre1"></div>
+            </div>
+
+           
 
 
+            <div id="recipient" >
+                <div class="recipient">
+
+                    <div class="titol">
+
+                        <p id="titol1"><b>Preparat per riure? </b></p>
+                        <p class="acudits"></p>
+                        <!--   <p id="z">Saben aquell que diu</p> -->
+                    </div>
+
+                    <div id="botonsPuntuacio">
+                        <button id="btn" onclick="puntuacio(1)">&#x1F620</button>
+                        <button id="btn" onclick="puntuacio(2)">&#x1F928</button>
+                        <button id="btn" onclick="puntuacio(3)">&#x1F92A</button>
+                    </div>
+
+                    <div class="seguentAcudit">
+                        <button class="botoAcudit">Següent acudit</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="box3">
+                <p id="requadre2"></p>
+            </div>
+
+        </div>
     </div>
+
+
 
 
     <script src="acudit.js"></script>
